@@ -61,7 +61,7 @@ public class NQueen {
                 j++;
             }
 
-            // Mutation on off-springs
+            // Mutation on population
             for (int i = 0; i < population.length; i++) {
                 if(new Random().nextInt(10)<2)
                     mutation(population[i]);
